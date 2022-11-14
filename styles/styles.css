@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
-*{margin: 0; padding: 0; box-sizing: border-box; background-color: #ffffff; font-family: 'Ubuntu', sans-serif;}
-
-html {
-    scroll-behavior: smooth;
-}
+*{margin: 0; padding: 0; box-sizing: border-box; background-color: #ffffff; font-family: 'Ubuntu', sans-serif; scroll-behavior: smooth;}
 
 /* Setup */
-
 
 /* Start Header */
 
@@ -163,9 +158,31 @@ body {
 
 /* Start Footer */
 
-footer {
+.card-link {
     width: 100%;
-    height: 6vh;
-    margin-top: auto;
-    background-color: #FE8A25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.card-link-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 20rem;
+    background-color: #333333;
+    border-radius: 1rem;
+}
+
+.card-link-item a {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #333333;
+}
+
+.card-link-item:hover {
+    cursor: pointer;
+    background-color: #262626;
 }
