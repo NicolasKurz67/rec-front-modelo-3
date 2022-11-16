@@ -200,6 +200,17 @@ body {
     border-radius: 10px;
 }
 
+.box-news section {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+
+.box-news section:hover {
+    transform: scale(1.025);
+    transition: 0.2s ease-in;
+}
+
 .card-news-left {
     display: flex;
     flex-direction: column;
@@ -222,7 +233,7 @@ body {
 }
 
 .card-news-left span {
-    font-size: 36px;
+    font-size: 50px;
     background-color: transparent;
 }
 
@@ -261,13 +272,14 @@ body {
     font-style: italic;
     font-weight: bold;
     background-color: transparent;
+    margin: 1vh 0;
 }
 
 .container-card-news {
     display: flex;
     flex-direction: inline;
-    justify-content: space-evenly;
-    height: 15rem;
+    justify-content: space-between;
+    height: 20rem;
 }
 
 .card-news {
