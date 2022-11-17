@@ -65,14 +65,7 @@ header {
 
 .container-root-left, .container-root-right {
     width: 49.5%;
-}
-
-.container-root-left {
-    background-color: red;
-}
-
-.container-root-right {
-    background-color: hotpink;
+    background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
 }
 
 .box-card {
@@ -124,6 +117,36 @@ header {
 
 .container-root-right-card-left span, .container-root-right-card-right span {
     font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 5rem;
     margin-left: 1rem;
+    background-color: transparent;
 }
+
+/* Finish Content */
+
+/* Start Span */
+
+.container-span {
+    height: 12.6rem;
+    margin: 4rem 2rem;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-span-left, .card-span-right {
+    height: 100%;
+    width: 49.5%;
+}
+
+.card-span-left {
+    background-color: hotpink;
+}
+
+.card-span-right {
+    background-color: red;
+}
+
+/* Finish Span */
