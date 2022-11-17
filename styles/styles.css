@@ -160,7 +160,7 @@ header {
     flex-direction: column;
 }
 
-.container-cards-title {
+.container-cards-title{
     height: 2.4rem;
     width: 100%;
     margin-bottom: 1rem;
@@ -234,6 +234,102 @@ header {
 .cards, .cards img, .card-content, .card-content h1, .card-content span, .card-content img {
     background-color: transparent;
 }
+
+/* Finish Cards */
+
+/* Start Topics */
+
+.container-topics {
+    height: 53.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-topics-card {
+    height: 100%;
+    max-width: 52.2rem;
+    margin: 0 1rem;
+    background-color: transparent;
+}
+
+.container-topics-card-title {
+    height: 3rem;
+    width: 100%;
+    background-color: green;
+}
+
+.container-topics-card-title-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.container-topics-card-title-content span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.container-topics-card-content {
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.container-topics-card-image {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-image: url('../public/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+}
+
+.container-topics-card-content span {
+    font-size: 2rem;
+}
+
+.container-topics-card-content p {
+    font-size: 1rem;
+}
+
+.container-topics-card-content span, .container-topics-card-content p {
+    background-color: transparent;
+    color: white;
+}
+
+.container-topics-card-content-item {
+    position: relative;
+    left: 1rem;
+    bottom: 7rem;
+    background-color: transparent;
+}
+
+.container-topics-card-list {
+    width: 100%;
+    padding: 0 2rem;
+    background-color: transparent;
+    position: relative;
+    bottom: 4rem;
+}
+
+.container-topics-card-list li, .container-topics-card-list ul{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+
 
 
 
