@@ -242,6 +242,7 @@ header {
 .container-topics {
     height: 53.2rem;
     width: 100%;
+    margin: 5rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -312,7 +313,7 @@ header {
 .container-topics-card-content-item {
     position: relative;
     left: 1rem;
-    bottom: 7rem;
+    bottom: 10rem;
     background-color: transparent;
 }
 
@@ -330,9 +331,70 @@ header {
     background-color: transparent;
 }
 
+/* Finish Topics */
 
+/* Start Extra News */
 
+.container-extra-news {
+    width: 100%;
+    height: 67rem;
+    background-color: blue;
+}
 
+.container-extra-news-title {
+    height: 5.4rem;
+    width: 100%;
+}
+
+.container-extra-news-title-content {
+    height: 4rem;
+    width: 31rem;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-extra-news-title-content p {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+
+.container-extra-news-card {
+    max-width: 56rem;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-extra-news-card img {
+    height: 37rem;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container-extra-news-card h1 {
+    font-size: 2rem;
+}
+
+.container-extra-news-card p {
+    color: gray;
+}
+
+.container-extra-news, .container-extra-news-card,.container-extra-news-card img, .container-extra-news-card h1, .container-extra-news-card p, .container-extra-news-title {
+    background-color: transparent;
+}
+
+.container-extra-news-line {
+    height: 61rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 
